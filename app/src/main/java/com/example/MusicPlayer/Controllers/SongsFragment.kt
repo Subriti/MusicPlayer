@@ -28,13 +28,6 @@ class SongsFragment : Fragment() {
         val recyclerView = v.findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-
-       /* var position=0
-        val item = songDataset[position]
-        val songkonaam = context?.resources?.getString(item.songName)
-        Toast.makeText(context, songkonaam, Toast.LENGTH_SHORT).show()*/
-
-
         var adapter = context?.let {
             SongsAdapter(it, songDataset) { songs ->
                 //got stringId
@@ -48,18 +41,21 @@ class SongsFragment : Fragment() {
 
                 Toast.makeText(context, resource, Toast.LENGTH_SHORT).show()
 
-
-
-
                 //val productIntent = Intent(context, MainActivity::class.java)
                 //productIntent.putExtra(EXTRA_CATEGORY,category.title)
                 //startActivity(productIntent)
+
 
                 //println(R.string.songs2)
                 // val length=songDataset.size
                 //println(songDataset.get(2))
                 //println(getString(R.string.songs2))
                 //println( resources.getString(R.string.songs2))
+                /* var position=0
+                 val item = songDataset[position]
+                 val songkonaam = context?.resources?.getString(item.songName)
+                 Toast.makeText(context, songkonaam, Toast.LENGTH_SHORT).show()*/
+
             }
         }
 
