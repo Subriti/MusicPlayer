@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Songs"
+        android:id="@+id/songsFragment"
+        android:icon="@drawable/ic_baseline_music_note_24"/>
+    <item android:title="Albums"
+        android:id="@+id/albumsFragment"
+        android:icon="@drawable/ic_baseline_album_24"/>
+    <item
+        android:id="@+id/artistsFragment"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:title="Artists" />
+</menu>

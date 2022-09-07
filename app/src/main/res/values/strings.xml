@@ -1,0 +1,37 @@
+<resources>
+    <string name="songs1">Tumse Bhi Zyada</string>
+    <string name="songs2">Suna Hai</string>
+    <string name="songs3">Soch Liya</string>
+    <string name="songs4">Shiddat Title Track</string>
+    <string name="songs5">Shayad</string>
+    <string name="songs6">Mehrama</string>
+    <string name="songs7">Jaan Ban Gaye</string>
+    <string name="songs8">Hum Dum</string>
+    <string name="songs9">Hardum Humdum</string>
+    <string name="songs10">Happier</string>
+    <string name="songs11">Carry On</string>
+    <string name="songs12">Photograph</string>
+    <string name="songs13">Better With You</string>
+    <string name="songs14">Let Her Go</string>
+    <string name="songs15">Muskurayera</string>
+    <string name="songs16">Cold/Mess</string>
+
+    <string name="artist1">Pritam, Arjit Singh</string>
+    <string name="artist2">Jubin Nautiyal</string>
+    <string name="artist3">Arjit Singh, Mithoon</string>
+    <string name="artist4">Manan Bhardwaj</string>
+    <string name="artist5">Pritam, Arjit Singh</string>
+    <string name="artist6">Pritam, Darshan Raval, Antara Mitra</string>
+    <string name="artist7">Mithoon, Vishal Mishra, Asees Kaur</string>
+    <string name="artist8">Ankit Tiwari</string>
+    <string name="artist9">Pritam, Arjit Singh</string>
+    <string name="artist10">Ed Sheeran</string>
+    <string name="artist11">Charlie Puth</string>
+    <string name="artist12">Ed Sheeran</string>
+    <string name="artist13">Austin Mahone</string>
+    <string name="artist14">Passenger</string>
+    <string name="artist15">Sushant KC</string>
+    <string name="artist16">Prateek Kuhad</string>
+
+
+</resources>
