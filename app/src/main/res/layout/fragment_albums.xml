@@ -10,21 +10,12 @@
         android:id="@+id/play_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="130dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="120dp"
         android:text="Play Audio"
         android:textAllCaps="false"
         android:textAlignment="center"
         android:textSize="24sp" />
 
-    <TextView
-        android:id="@+id/text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="250dp"
-        android:layout_marginLeft="90dp"
-        android:text="You can tap it again to pause"
-        android:textAllCaps="false"
-        android:textAlignment="center"
-        android:textSize="20sp" />
+
 </FrameLayout>

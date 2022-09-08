@@ -8,13 +8,30 @@
     <string name="songs7">Jaan Ban Gaye</string>
     <string name="songs8">Hum Dum</string>
     <string name="songs9">Hardum Humdum</string>
-    <string name="songs10">Happier</string>
-    <string name="songs11">Carry On</string>
-    <string name="songs12">Photograph</string>
-    <string name="songs13">Better With You</string>
-    <string name="songs14">Let Her Go</string>
-    <string name="songs15">Muskurayera</string>
-    <string name="songs16">Cold/Mess</string>
+    <string name="songs10">Kesariya</string>
+    <string name="songs11">Deva Deva</string>
+    <string name="songs12">Jaana</string>
+    <string name="songs13">Barsaat Ho Jaaye</string>
+    <string name="songs14">Tere Hawaale</string>
+    <string name="songs15">Pehli Pehli Baarish</string>
+    <string name="songs16">Stay a Little Longer</string>
+
+    <string name="audiosongs1">https://pagalfree.com/musics/128-Tumse%20Bhi%20Zyada%20-%20Tadap%20128%20Kbps.mp3</string>
+    <string name="audiosongs2">https://pagalfree.com/musics/128-Suna%20Hai%20-%20Sanak%20128%20Kbps.mp3</string>
+    <string name="audiosongs3">https://pagalfree.com/musics/128-Soch%20Liya%20-%20Radhe%20Shyam%20128%20Kbps.mp3</string>
+    <string name="audiosongs4">https://pagalfree.com/musics/128-Shiddat%20Title%20Track%20-%20Shiddat%20128%20Kbps.mp3</string>
+    <string name="audiosongs5">https://pagalfree.com/musics/192-Shayad%20-%20Love%20Aaj%20Kal%20192%20Kbps.mp3</string>
+    <string name="audiosongs6">https://pagalfree.com/musics/192-Mehrama%20-%20Love%20Aaj%20Kal%20192%20Kbps.mp3</string>
+    <string name="audiosongs7">https://pagalfree.com/musics/192-Jaan%20Ban%20Gaye%20-%20Khuda%20Haafiz%20192%20Kbps.mp3</string>
+    <string name="audiosongs8">https://pagalfree.com/musics/128-Hum%20Dum%20-%20Shiddat%20128%20Kbps.mp3</string>
+    <string name="audiosongs9">https://pagalfree.com/musics/128-Hardum%20Humdum%20-%20Ludo%20128%20Kbps.mp3</string>
+    <string name="audiosongs10">https://pagalfree.com/musics/128-Kesariya%20-%20Brahmastra%20128%20Kbps.mp3</string>
+    <string name="audiosongs11">https://pagalfree.com/musics/128-Deva%20Deva%20-%20Brahmastra%20128%20Kbps.mp3</string>
+    <string name="audiosongs12">https://pagalfree.com/musics/128-Jaana%20-%20Stebin%20Ben%20128%20Kbps.mp3</string>
+    <string name="audiosongs13">https://pagalfree.com/musics/128-Barsaat%20Ho%20Jaaye%20-%20Jubin%20Nautiyal%20128%20Kbps.mp3</string>
+    <string name="audiosongs14">https://pagalfree.com/musics/128-Tere%20Hawaale%20-%20Laal%20Singh%20Chaddha%20128%20Kbps.mp3</string>
+    <string name="audiosongs15">https://pagalfree.com/musics/128-Pehli%20Pehli%20Baarish%20-%20Yasser%20Desai%20128%20Kbps.mp3</string>
+    <string name="audiosongs16">https://pagalfree.com/musics/128-Stay%20A%20Little%20Longer%20-%20Half%20Girlfriend%20128%20Kbps.mp3</string>
 
     <string name="artist1">Pritam, Arjit Singh</string>
     <string name="artist2">Jubin Nautiyal</string>
@@ -25,13 +42,15 @@
     <string name="artist7">Mithoon, Vishal Mishra, Asees Kaur</string>
     <string name="artist8">Ankit Tiwari</string>
     <string name="artist9">Pritam, Arjit Singh</string>
-    <string name="artist10">Ed Sheeran</string>
-    <string name="artist11">Charlie Puth</string>
-    <string name="artist12">Ed Sheeran</string>
-    <string name="artist13">Austin Mahone</string>
-    <string name="artist14">Passenger</string>
-    <string name="artist15">Sushant KC</string>
-    <string name="artist16">Prateek Kuhad</string>
+    <string name="artist10">Pritam, Arijit Singh, Amitabh Bhattacharya</string>
+    <string name="artist11">Pritam, Arijit Singh, Amitabh Bhattacharya, Jonita Gandhi</string>
+    <string name="artist12">Stebin Ben</string>
+    <string name="artist13">Jubin Nautiyal, Payal Dev</string>
+    <string name="artist14">Pritam, Arijit Singh, Shilpa Rao</string>
+    <string name="artist15">Yasser Desai, Himani Kapoor</string>
+    <string name="artist16">Anushka Shahaney</string>
+
+
 
 
 </resources>

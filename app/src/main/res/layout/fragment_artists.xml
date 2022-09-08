@@ -6,12 +6,15 @@
     android:background="@drawable/bg4"
     tools:context=".Controllers.ArtistsFragment">
 
-    <TextView
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/bg_Btn"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="300dp"
-        android:text="Artists Fragment"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="60dp"
+        android:text="Play Background Music"
+        android:textAllCaps="false"
         android:textAlignment="center"
-        android:textSize="24sp" />
+        android:textSize="20sp" />
 
 </FrameLayout>

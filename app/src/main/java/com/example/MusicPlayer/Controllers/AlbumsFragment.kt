@@ -43,7 +43,8 @@ class AlbumsFragment : Fragment() {
 
     private fun playAudio() {
         //val audioURL= "https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3"
-        val audioURL= "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+        //val audioURL= "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+        val audioURL="https://pagalfree.com/musics/128-Deva%20Deva%20-%20Brahmastra%20128%20Kbps.mp3"
         mediaPlayer= MediaPlayer()
         mediaPlayer!!.setAudioStreamType(AudioManager.STREAM_MUSIC)
         try{
