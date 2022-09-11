@@ -3,7 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/drawable/background_splashscreen.xml" value="0.1" />
+        <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1" />
         <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
         <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/layout/fragment_albums.xml" value="0.2052401746724891" />
         <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/layout/fragment_artists.xml" value="0.21197916666666666" />
         <entry key="..\:/Users/Subriti/AndroidStudioProjects/BottomNavWithNavHost/app/src/main/res/layout/fragment_songs.xml" value="0.22" />
