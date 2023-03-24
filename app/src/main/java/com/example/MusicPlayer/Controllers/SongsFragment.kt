@@ -1,12 +1,12 @@
 package com.example.MusicPlayer.Controllers
 
+import android.content.res.Resources
 import android.media.AudioManager
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -34,13 +34,12 @@ class SongsFragment : Fragment() {
         val recyclerView = v.findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.layoutManager = LinearLayoutManager(context)
 
-        val image = v.findViewById<ImageView>(R.id.song_image)
-
         var adapter = context?.let {
             SongsAdapter(it, songDataset) { songs ->
                 //got stringId
                 val name = songs.getName()
                 val audioId= songs.getAudio()
+                println(audioId)
 
                 //gives string name
                 //val songName= resources.getResourceEntryName(name)
@@ -48,16 +47,49 @@ class SongsFragment : Fragment() {
 
                 //converted it to string value
                 resource = resources.getString(name)
+                //for extracting location
                 val audio= resources.getString(audioId)
+                println(audio)
 
-                isPlaying = if (isPlaying) {
+                //playing songs from raw
+                val song= audio.split('/','.')
+                //getting song Name
+                val songName= song[2]
+                println(songName)
+
+                val res: Resources = resources
+                val soundId: Int = res.getIdentifier(songName, "raw", requireContext().packageName)
+
+                //if resource folder doesnot have the song, play from online link
+                println(soundId)
+                if (soundId==0){
+                    isPlaying = if (isPlaying) {
+                        pauseAudio()
+                        false
+                    } else {
+                        playAudio(audio)
+                        true
+                    }
+                }else{
+                    //if found, play from res
+                    isPlaying = if (isPlaying) {
+                        pauseSong()
+                        false
+                    } else {
+                        playSong(soundId)
+                        true
+                    }
+                }
+
+
+               /* isPlaying = if (isPlaying) {
                     pauseAudio()
                     false
                 } else {
                     Toast.makeText(context, "Be patient. Playing of the song takes few seconds", Toast.LENGTH_SHORT).show()
                     playAudio(audio)
                     true
-                }
+                }*/
             }
 
         }
@@ -65,6 +97,31 @@ class SongsFragment : Fragment() {
         return v
     }
 
+    //for raw files
+    private fun playSong(soundId: Int) {
+        var ring = MediaPlayer.create(context, soundId)
+        mediaPlayer=ring
+        try {
+            ring.start()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+        Toast.makeText(context, "$resource started playing", Toast.LENGTH_SHORT).show()
+    }
+
+    private fun pauseSong() {
+        if (mediaPlayer != null && mediaPlayer!!.isPlaying) {
+            mediaPlayer!!.stop()
+            mediaPlayer!!.reset()
+            mediaPlayer!!.release()
+            Toast.makeText(context, "Audio is paused", Toast.LENGTH_SHORT).show()
+        } else {
+            Toast.makeText(context, "Audio has not started playing", Toast.LENGTH_SHORT).show()
+        }
+    }
+
+
+    //for Url
     private fun playAudio(audioURL: String) {
 
         mediaPlayer = MediaPlayer()
